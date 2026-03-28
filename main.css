@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+.topbar {
+  background: #b71c1c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* LAYOUT */
+.main {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+/* HERO */
+.hero {
+  flex: 2;
+  background: linear-gradient(90deg, #b71c1c, #d32f2f);
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+/* TEXT */
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.stat-box {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* IMAGE FIXED */
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: 320px;
+}
+
+/* FORM */
+.form-card {
+  width: 400px;
+  background: white;
+  padding: 25px;
+  box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #d32f2f;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #b71c1c;
+}
+
+/* REVIEW */
+.review-box {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
